@@ -15,7 +15,7 @@
                 @click.prevent="nextPageination">下一页
             </li>
             <li :class="['_last', setLastDisabled]"
-                @click.prevent="setLastPageination">尾页
+                @click="setLastPageination">尾页
             </li>
         </ul>
         <div class="_jumper">
@@ -101,12 +101,18 @@
                 this.current = index
             },
             nextPageination() {
-                if (this.current === this.pageTotalNum) this.current = this.pageTotalNum
-                this.current++
+                if (this.current === this.pageTotalNum) {
+                    this.current = this.pageTotalNum
+                }else {
+                    this.current++
+                }
             },
             prevPageination() {
-                if (this.current === 1) this.current = 1
-                this.current--
+                if (this.current === 1) {
+                    this.current = 1
+                }else {
+                    this.current--
+                }
             },
             setHomePageination() {
                 this.current = 1
