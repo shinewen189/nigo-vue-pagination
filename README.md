@@ -32,4 +32,4 @@
 
   
  ### Keywords
-vue 、JavaScript 、drag
+vue 、JavaScript 、pagination
