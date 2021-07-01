@@ -1,6 +1,6 @@
 {
   "name": "nigo-vue-pagination",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue分页组件",
   "author": "nigo",
   "main": "./dist/nigo-vue-pagination.js",

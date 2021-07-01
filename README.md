@@ -1,5 +1,5 @@
 
-## nigo-vue-pagination v1.0.1
+## nigo-vue-pagination v1.0.3
 `    npm install nigo-vue-pagination
 `
 
