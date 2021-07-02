@@ -94,7 +94,7 @@
             }
         },
         updated() {
-            this.$emit('currentCallBack', this.current - 1)
+            this.$emit('currentCallBack', this.current)
         },
         methods: {
             switchPageination(index) {

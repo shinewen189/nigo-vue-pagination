@@ -25,10 +25,11 @@
 | page-num | 要显示页数 | Number | 10 |
 | page-size | 分页大小 | Number | 5 |
 | color | 传入的主题颜色 | Number | #409eff |
-| currentCallBack | 返回点击的当前索引值 | Events |  |
+| currentCallBack | 返回点击的当前页数| Events |  |
 
 
-
+## update
+修改返回当前页数
 
   
  ### Keywords
